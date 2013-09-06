@@ -1,0 +1,16 @@
+{
+    "name": "allegro/php-protobuf",
+    "type": "serializer",
+    "description": "PHP implementation of Google Protocol Buffers",
+    "keywords": ["protocol buffers", "protobuf"],
+    "homepage": "https://github.com/allegro/php-protobuf",
+    "licence": "https://raw.github.com/allegro/php-protobuf/master/LICENSE.md",
+
+    "require": {
+        "ext-protobuf": "*"
+    },
+
+    "bin": [
+        "protoc-php.php"
+    ]
+}
